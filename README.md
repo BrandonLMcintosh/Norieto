@@ -52,6 +52,7 @@ Norieto is a topology mapping software for simplistic yet effective topologies f
      -    Authenticated routes:
           -    `/user/delete-account/`
           -    `/project/create`
+          -    `/project/[id]`
           -    `/project/[pid]/edit`
           -    `/project/[pid]/delete`
           -    `/project/[pid]/export`
