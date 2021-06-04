@@ -19,7 +19,7 @@ Norieto is a topology mapping software for simplistic yet effective topologies f
 -    In brief, outline your approach to creating your project (knowing that you may not know everything in advance and that these details might change later). Answer questions like the ones below, but feel free to add more information:
 
      -    What does your database schema look like?
-          -    ![schema](https://i.imgur.com/Pqtz1kR.png)
+          -    ![schema](https://i.imgur.com/mdNO47y.png)
           -    All nodes and node types will be stored front-end. The actual tree itself will be coded as a string and stored server-side under "projects" and re-coded when needed.
      -    What kinds of issues might you run into with your API?
           -    Difficulty exporting n-ary device trees efficiently
@@ -57,8 +57,3 @@ Norieto is a topology mapping software for simplistic yet effective topologies f
           -    `/project/[pid]/delete`
           -    `/project/[pid]/export`
           -    `/project/[pid]/share/[username]`
-          -    `/project/[pid]/element/add/[type]`
-          -    `/project/[pid]/element/[eid]/edit`
-          -    `/project/[pid]/element/[eid]/delete`
-          -    `/project/[pid]/element/[eid]/child/[cid]`
-          -    `/project/[pid]/element/[eid]/parent/[pid]`
