@@ -56,4 +56,4 @@ Norieto is a topology mapping software for simplistic yet effective topologies f
           -    `/project/[pid]/edit`
           -    `/project/[pid]/delete`
           -    `/project/[pid]/export`
-          -    `/project/[pid]/share/[username]`
+          -    `/project/[pid]/share/`
