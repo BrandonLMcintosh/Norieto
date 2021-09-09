@@ -6,6 +6,6 @@ CREATE TABLE users (
 
 CREATE TABLE maps (
     id SERIAL PRIMARY KEY,
-    json_data TEXT NOT NULL,
+    json_data JSONB NOT NULL,
     map_owner NOT NULL REFERENCES users ON DELETE CASCADE
 )
